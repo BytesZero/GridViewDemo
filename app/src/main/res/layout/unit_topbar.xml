@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/topbar_height"
+    android:background="@color/topbar_bg"
+    android:elevation="@dimen/topbar_elevation">
+
+    <TextView
+        android:id="@+id/unit_topbar_tv_left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/topbar_tv"
+        android:gravity="center"
+        android:textSize="@dimen/topbar_textSize"
+        android:elevation="@dimen/topbar_elevation"/>
+    <TextView
+        android:id="@+id/unit_topbar_tv_title"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/topbar_tv"
+        android:gravity="center"
+        android:textSize="@dimen/topbar_textSize"
+        android:elevation="@dimen/topbar_elevation"/>
+    <TextView
+        android:id="@+id/unit_topbar_tv_right"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/topbar_tv"
+        android:gravity="center"
+        android:textSize="@dimen/topbar_textSize"
+        android:elevation="@dimen/topbar_elevation"/>
+
+</LinearLayout>
