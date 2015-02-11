@@ -6,4 +6,7 @@ package com.zhengsonglan.recipesdaquan.config;
  */
 public class Config {
 
+    //聚合数据的AppKey
+    public static String JuHe_AppKey="31e30b3609dd95a68f33b2d1ec856466";
+
 }
