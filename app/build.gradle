@@ -22,5 +22,8 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.0'
+    compile ('in.srain.cube:cube-sdk:1.0.42.1'){
+        exclude module: 'support-v4'
+    }
     compile files('libs/android-async-http-1.4.6.jar')
 }
