@@ -33,5 +33,5 @@ gv_tuijian.setAdapter(main_adapter);
 ```
 ***
 ####效果图
-![](https://github.com/dodola/PinterestLikeAdapterView/raw/master/01.png)
+![效果图](https://github.com/yy1300326388/GridViewDemo/blob/master/demo_img.png)
 
