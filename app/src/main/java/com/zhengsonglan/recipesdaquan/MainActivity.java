@@ -48,7 +48,7 @@ public class MainActivity extends BaseActivity {
      */
     private void initView() {
         tv_tb_title = (TextView) findViewById(R.id.unit_topbar_tv_title);
-        tv_tb_title.setText("菜谱大全");
+        tv_tb_title.setText("GridViewDemo");
         gv_tuijian = (GridView) findViewById(R.id.main_gv_tuijian);
     }
 
