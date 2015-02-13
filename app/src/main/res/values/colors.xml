@@ -3,4 +3,8 @@
     <color name="topbar_bg">#4183EF</color>
     <color name="topbar_bg_press">#ff284aef</color>
     <color name="topbar_tv">#ffffffff</color>
+
+    <color name="app_write">#fffff7ff</color>
+
+    <color name="item_tv_color">#1B81CD</color>
 </resources>

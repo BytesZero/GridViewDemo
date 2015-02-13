@@ -5,18 +5,17 @@
 
     <include layout="@layout/unit_topbar" />
 
-    <in.srain.cube.image.CubeImageView
-        android:id="@+id/main_iv_img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitCenter"/>
-    <ListView
-        android:id="@+id/main_lv_tuijian"
+    <GridView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </ListView>
-
+        android:layout_height="wrap_content"
+        android:id="@+id/main_gv_tuijian"
+        android:numColumns="auto_fit"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:horizontalSpacing="@dimen/item_margin"
+        android:verticalSpacing="@dimen/item_margin"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/item_margin"/>
 
 
 </LinearLayout>

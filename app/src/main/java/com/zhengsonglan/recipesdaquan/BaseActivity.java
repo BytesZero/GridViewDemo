@@ -24,10 +24,11 @@ public class BaseActivity extends ActionBarActivity {
 
     /**
      * 显示Toast
+     *
      * @param content 显示的内容
      */
     public void showToast(String content) {
-        Toast.makeText(getApplicationContext(),content,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), content, Toast.LENGTH_SHORT).show();
     }
 
 
